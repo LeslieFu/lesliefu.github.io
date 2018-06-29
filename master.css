@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  overflow: auto;
+  font-family:"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  color: #2b3f55;
+}
+
+li{
+  list-style: none;
+}
+
+.container .nav{
+  background-color: #fff;
+  position: relative;
+  float: right;
+  flex-wrap: nowrap;
+  margin-right: 30%;
+  margin-top: 2%;
+}
+
+.nav .img .logo{
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+  right: 10px;
+}
+
+.nav .img .QR{
+  display: none;
+  position: absolute;
+  border: none
+}
+
+.nav :hover .QR{
+  display:block;
+  opacity: 0.6;
+  padding: 10px;
+  right:10px;
+}
+
+.nav :hover .logo{
+  position: relative;
+  top:-8px
+}
+
+.header{
+  background-color: #fff;
+}
+
+.profile{
+  width: 800px;
+  margin: 0 auto;
+  padding: 80px 0 80px;
+}
+
+.profile h1{
+  font-weight: bolder;
+  font-size: 2.8em;
+}
+
+.profile p{
+  margin:10px 0;
+
+}
+
+.profile .links{
+  margin-top: 40px;
+}
+
+.links a {
+  background-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.links a:hover img{
+  position: relative;
+  top:-8px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0.2px 2px 3px rgba(0,0,0,0.3)
+}
+
+.info{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  padding: 70px 0;
+  justify-content: space-between;
+}
+
+.info h2{
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.info li{
+  margin: 20px 0;
+}
+
+.w{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.works{
+  margin-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imge{
+  width: 360px;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  border-radius: 4px;
+}
+
+.imge img{
+  width: 100%;
+}
+
+.imge h3{
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 1.3em;
+  text-align: center;
+}
