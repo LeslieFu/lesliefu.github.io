@@ -135,7 +135,7 @@ li{
 }
 
 .imge{
-  width: 360px;
+  width: 350px;
   background-color: #fff;
   padding: 15px;
   margin-bottom: 50px;
@@ -156,13 +156,23 @@ li{
 
 @media (max-width:700px){
 
+
+
   .navv .header .info .w {
     width: 100%;
     margin: 0 auto;
   }
 
+  .nav{
+    left:150%
+  }
+
+  .header{
+    width: 192%;
+  }
+
   .info {
-    display: block;
+    display: flex;
     margin: 0 auto;
   }
 
@@ -176,7 +186,11 @@ li{
   }
 
   .works {
+    width: 100%;
+  }
+
+  .imge{
     display: block;
-    width:200%;
+    width: 100%;
   }
 }
