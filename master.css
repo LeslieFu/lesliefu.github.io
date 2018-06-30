@@ -154,13 +154,12 @@ li{
   text-align: center;
 }
 
-@media (max-width:800px){
-  .container {
-    width: 225%;
+@media (max-width:700px){
+  .navv .header .info .w {
+    width: 100%;
+    margin: 0 auto;
   }
 
-  .logo .QR{
-    width: 0%;
   }
   .info {
     display: block;
@@ -170,7 +169,7 @@ li{
     vertical-align: middle;
   }
   .info .a{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .works {
