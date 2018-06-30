@@ -159,25 +159,25 @@ li{
 
 
   .navv .header .info .w {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
   }
 
   .nav{
-    left:150%
+    /* left:100% */
   }
 
   .header{
-    width: 192%;
+    width: 120%;
   }
 
   .info {
-    display: flex;
+    display:block;
     margin: 0 auto;
   }
 
   .info img{
-
+    width: 4%;
     vertical-align: middle;
   }
 
@@ -187,10 +187,11 @@ li{
 
   .works {
     width: 100%;
+    display: block;
   }
 
   .imge{
     display: block;
-    width: 100%;
+    width: 52%;
   }
 }
