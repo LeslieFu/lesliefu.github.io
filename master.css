@@ -17,20 +17,21 @@ li{
 }
 
 .container .nav{
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
   float: right;
   flex-wrap: nowrap;
   /* margin-right: 30%; */
   right:10%;
   margin-top: 2%;
+  position:  relative;
 }
 
 .nav .img .logo{
   position: relative;
   cursor: pointer;
   border: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #fff;
   padding: 10px;
   right: 10px;
@@ -109,6 +110,12 @@ li{
 
 .info li{
   margin: 20px 0;
+}
+
+.info img{
+  width: 10%;
+  vertical-align: middle;
+  margin-right: 2px;
 }
 
 .w{
