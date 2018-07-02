@@ -1,71 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8 gbk">
+  <meta http-equiv="X-UA-Compatible " content="ie=edge ">
   <meta name="author" content="Leslie Fu">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="master.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="master.css" type="text/css">
   <link rel="shortcut icon" href="icon/sakura.png" type="image/x-icon">
   <title>Leslie Fu Profile</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="navv">
-      <div class="nav">
-
-      <div class="img">
-
-        <span class="logo">
-          <img src="icon/logo.png" alt="logo" width="50px">
-        </span>
-
-        <span class="QR">
-          <img src="icon/QR.svg" alt="公众号" width="60px">
-        </span>
-
-      </div>
-
-    </div>
-    </div>
-
-
     <div class="header">
       <div class="profile">
-
-        <h1>Leslie Fu</h1>
-
-        <p>热爱摄影，喜好艺术相关的作品与知识。</p>
-        <p>对所感兴趣的技能会去了解与学习。</p>
-        <p>摄影、图片后期、PowerPoint、Keynote……</p>
-
-        <div class="links">
-
-            <a href="https://weibo.com/fuyu0125/" target="_blank">
-              <img src="icon/weibo.png" width="5%">
-            </a>
-
-            <a href="https://instagram.com/leslie.fu/" target="_blank">
-              <img src="icon/ins.png" width="5%">
-            </a>
-
-            <a type="button" onclick="alert('914582144@qq.com')">
-              <img src="icon/email2.png" width="5%">
-            </a>
-
-            <a type="button" onclick="alert('fy914582144')">
-              <img src="icon/wechat.png" width="5%">
-            </a>
-
-        </div>
-
+         <h1>Leslie Fu</h1>
+         <ul>
+           <li>
+             <p>热爱摄影，喜好艺术相关的作品与知识。</p>
+           </li>
+           <li>
+             <p>对所感兴趣的技能会去了解与学习。</p>
+           </li>
+           <li>
+             <p>摄影、图片后期、PowerPoint、Keynote、Word、Pages……</p>
+           </li>
+         </ul>
+         <div class="links">
+           <a href="https://weibo.com/fuyu0125" target="_blank">
+             <img src="icon/weibo.png" alt="新浪微博">
+           </a>
+           <a href="https://instagram.com/leslie.fu" target="_blank">
+             <img src="icon/ins.png" alt="Instagram">
+           </a>
+           <a type="button" onclick="alert('914582144@qq.com'+'\n'+'q914582144@live.com'+'\n'+'f13098898047@gmail.com')">
+             <img src="icon/email2.png" alt="E-mail" >
+           </a>
+           <a type="button" onclick="alert('fy914582144')">
+             <img src="icon/wechat.png" alt="WeChat" >
+           </a>
+         </div>
+      </div>
+      <div class="qr">
+        <img id="qr" src="icon/QR.png" alt="微信公众号">
+        <h3>微信公众号</h3>
       </div>
     </div>
 
     <div class="info">
-      <div class="cam a">
-        <h2><img src="icon/camera.png" alt="camera">相机设备</h2>
+      <div class="equipments">
+        <h2><img src="icon/cam.png" alt="相机设备" class="infoimg">相机设备</h2>
         <ul>
           <li>Canon EOS 5D Mark III</li>
           <li>Olympus E300</li>
@@ -74,74 +59,141 @@
           <li>海鸥 4B</li>
         </ul>
       </div>
-      <div class="lens a">
-        <h2><img src="icon/lens.png" alt="lens">镜头设备</h2>
-        <ul>
-          <li>EF 85mm f/1.2</li>
-          <li>EF 50mm f/1.8</li>
-          <li>Sigma 35mm f/1.4</li>
-          <li>OM 50mm f/1.4</li>
-          <li>OM 35-70mm f/4</li>
-          <li>OM4/3 12-42mm f/3.5-5.6</li>
-        </ul>
-      </div>
-      <div class="others a">
-        <h2><img src="icon/Others.png" alt="others">其他设备</h2>
+      <div class="others">
+        <h2><img src="icon/oths.png" alt="其他设备" class="infoimg">其他设备</h2>
         <ul>
           <li>iPhone 7 Plus</li>
-          <li>MacBook Pro 13" Touchu Bar</li>
+          <li>MacBook Pro 13" Touch Bar</li>
           <li>Wacom CTL-471</li>
         </ul>
       </div>
+      <div class="theme">
+        <h2><img src="icon/heart.png" alt="喜好题材" class="infoimg">喜好题材</h2>
+        <ul>
+          <li>人文纪实</li>
+          <li>新闻纪实</li>
+          <li>自然风光</li>
+          <li>写真人像</li>
+          <li>抽象意境</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="w">
-      <h2>作品展示</h2>
+    <div class="display">
+      <h2><img src="icon/jpg.png" alt="作品展示" class="displayimg">作品展示</h2>
+
       <div class="works">
-        <div class="imge">
-          <img src="img/tree.jpg" alt="樱花">
-          <h3>春</h3>
+        <div class="images">
+          <img src="img/selfie.jpg" alt="自拍">
         </div>
-
-        <div class="imge">
+        <div class="images">
+          <img src="img/selfie2.jpg" alt="自拍2">
+        </div>
+        <div class="images">
           <img src="img/grass.jpg" alt="草">
-          <h3>夏</h3>
         </div>
-
-        <div class="imge">
-          <img src="img/银杏.jpg" alt="银杏">
-          <h3>秋</h3>
+        <div class="images">
+          <img src="img/rain.jpg" alt="雨滴">
         </div>
-
-        <div class="imge">
-          <img src="img/snow.jpg" alt="芦苇">
-          <h3>冬</h3>
-        </div>
-
-        <div class="imge">
+        <div class="images">
           <img src="img/lake.jpg" alt="湖">
-          <h3>湖面</h3>
         </div>
-
-        <div class="imge">
-          <img src="img/rain.JPG" alt="雨滴">
-          <h3>雨滴</h3>
+        <div class="images">
+          <img src="img/snow.jpg" alt="雪中芦苇">
         </div>
-
-        <div class="imge">
-          <img src="img/water.JPG" alt="水">
-          <h3>流水</h3>
+        <div class="images">
+          <img src="img/line.jpg" alt="斑马线">
         </div>
-
-        <div class="imge">
-          <img src="img/line.JPG" alt="斑马线">
-          <h3>黑白线</h3>
+        <div class="images">
+          <img src="img/water.jpg" alt="水流">
+        </div>
+        <div class="images">
+          <img src="img/water2.jpg" alt="水流2">
+        </div>
+        <div class="images">
+          <img src="img/dogs.jpg" alt="三只狗">
+        </div>
+        <div class="images heng">
+          <img src="img/sun.jpg" alt="清晨">
+        </div>
+        <div class="images heng">
+          <img src="img/cat.jpg" alt="猫">
+        </div>
+        <div class="images">
+          <img src="img/water3.jpg" alt="水流3">
+        </div>
+        <div class="images heng">
+          <img src="img/water4.jpg" alt="慢门水流">
+        </div>
+        <div class="images heng">
+          <img src="img/lake2.jpg" alt="小瀑布">
+        </div>
+        <div class="images heng">
+          <img src="img/road.jpg" alt="山田小道">
+        </div>
+        <div class="images heng">
+          <img src="img/maninsnow.jpg" alt="人在雪中">
+        </div>
+        <div class="images">
+          <img src="img/playsnow.jpg" alt="玩雪">
+        </div>
+        <div class="images">
+          <img src="img/tree.jpg" alt="树">
+        </div>
+        <div class="images heng">
+          <img src="img/river.jpg" alt="长江">
+        </div>
+        <div class="images heng">
+          <img src="img/drifter.jpg" alt="流浪者">
+        </div>
+        <div class="images heng">
+          <img src="img/river2.jpg" alt="天兴洲">
+        </div>
+        <div class="images">
+          <img src="img/night.jpg" alt="新洲">
+        </div>
+        <div class="images heng">
+          <img src="img/river3.jpg" alt="天兴洲2">
+        </div>
+        <div class="images">
+          <img src="img/door.jpg" alt="门">
+        </div>
+        <div class="images">
+          <img src="img/fish.jpg" alt="鱼">
+        </div>
+        <div class="images">
+          <img src="img/bird.jpg" alt="鸟">
+        </div>
+        <div class="images">
+          <img src="img/lake3.jpg" alt="南湖">
+        </div>
+        <div class="images">
+          <img src="img/lake4.jpg" alt="紫阳公园">
+        </div>
+        <div class="images">
+          <img src="img/road2.jpg" alt="路边">
+        </div>
+        <div class="images">
+          <img src="img/light.jpg" alt="路灯">
+        </div>
+        <div class="images">
+          <img src="img/lake5.jpg" alt="东湖">
         </div>
       </div>
     </div>
 
-
+    <footer>
+      <p>版权归作者所有，盗图必究！</p>
+      <p>
+        <i>
+          Copyright ©️ Since 2018.07 by Leslie Fu
+        </i>
+      </p>
+    </footer>
   </div>
+
+
+
 
 </body>
 </html>
