@@ -135,3 +135,7 @@ footer p{
   opacity: 0.6;
   font-size: 1vw
 }
+
+@media  (max-width:800px){
+  .info{display: block;}
+}
